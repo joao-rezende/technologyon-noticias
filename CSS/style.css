@@ -1,0 +1,114 @@
+body { 
+        width: 100%;;
+        margin:auto;
+        min-width:600px;
+        max-width:2000px;
+        font-family: Comic Sans MS;
+}
+div#imagem {
+            position: relative;
+}
+img#pesquisa {
+    position: absolute;
+    top: 19%;
+    right: 107%;
+}
+form#pesquisa {
+    margin: auto;
+    position: absolute;
+    top: 8.7%;
+    left: 78%;
+}
+input[type="button"]#buscar {
+            margin-left: 4px;
+            font-family: comic sans MS;
+            font-weight: bold;
+            padding: 7.5px 5px;
+            border:1px solid #000;
+            border-radius: 3px;
+            background: black;
+            color:green;
+}
+input[type="search"]#pesquisa {
+            border: solid black;
+            border-radius: 5px;
+            height: 37px;
+            font-family: Comic Sans MS;
+            
+}
+div#banner_propaganda {
+            position: absolute;
+            top: 48%;
+}
+ul#menu {
+			color: white;
+            position: absolute;
+            top: 22%;
+            font-size: 135%;
+            list-style: none;
+            float: left;
+            background-color: black;
+            height: 6%;
+            width: 100%;
+            margin: 0%;
+            padding: 0%;
+}
+ul#menu li {   
+            position: relative;
+            background: black;
+            display: inline;
+}
+ul#menu li a {
+				color: white;
+                padding: 0.1% 12.98%;
+                display: inline-block;
+                text-decoration: none;
+}
+ul#menu li a:hover {
+                    color: green;
+                    padding: 0.1% 12.8%;
+                    font-weight: bold;
+}
+ul#menu li a#lançamento:hover {
+                    padding: 0.1% 12.9%;
+}
+ul#menu li a#inicio:hover {
+                    color: green;
+                    padding: 0.1% 12.98%;
+}
+ul#menu li a:visited {
+                        color: white;
+}
+ul#submenu  {
+            background-color: black;
+            text-align: center;
+            width: 52%;
+            position: absolute;
+            left: 0%;
+            font-size: 75%;
+            list-style-type: none;
+            display: none;
+            margin-left: 23%;
+            padding: 0%;
+}
+ul#submenu li { 
+				color: white;
+                float: none;
+                line-height: 150%;
+}
+ul#submenu li a {
+					color: white;
+                    text-decoration: none;
+                    display: block;
+}
+ul#submenu li a:hover {
+                    color: green;
+}
+ul#menu li:hover > ul#submenu {
+                                display: block;
+}
+img#banner {
+            position: absolute;
+            top: 29%;
+            left:22%;
+}

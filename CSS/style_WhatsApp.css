@@ -1,0 +1,76 @@
+div#conteudo {
+                position: absolute;
+                top: 53%;
+                left: 22%;
+                width: 59.2%;
+}
+header {
+        text-align: center;
+        font-family: Tahoma;
+        font-size: 113%;
+        font-weight: 100;
+}
+h1 {
+	font-size: 105%;
+    text-align: center;
+}
+p {
+    font-size: 113%;
+}
+img#samsungs6 {
+				position:absolute;
+				top: 113%;
+				left:26%;
+				text-align:center;
+				}
+p#conteudo2 {
+				position:absolute;
+				top: 78%;
+				width: 60%;
+				left:22%;
+				text-align:center;
+				}
+iframe {
+		position:absolute;
+		top: 177%;
+		left:22%;
+		}				
+div#imagem2 {
+    position: absolute;
+    top: 9%;
+    left: 111.5%;
+}
+footer#artigo {
+		position: absolute;
+		top: 160%;
+		left: 19%;
+        font-family: courier;
+}
+div#rodape {
+                border-top: groove gray;
+                width: 99%;
+                position: absolute;
+                top: 170%;
+                color: gray;
+}
+a#fale {
+		color:gray;
+		text-decoration:none;
+		}
+a#fale:hover {
+		color: black;
+}
+footer#rodape1 {
+                position: absolute;
+                top: 170%;
+                font-size: 90%;
+                font-family: sans-serif;
+}
+footer#rodape2 {
+				text-align: right;
+                position: absolute;
+                top: 170%;
+                left: 67%;
+                font-size: 90%;
+                font-family: sans-serif;
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="icon" type="imagem/jpg" href="Imagens/icone.jpg" />
+        <title>TechnologyOn</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="CSS/style.css">
+        <link rel="stylesheet" href="style_inicio.css">
+    </head>
+
+    <body onload="exiba()">
+    <div id="geral">
+        <!-----Logo do Site---->
+        <div id="imagem">
+           <a href="TechnologyOn_Inicio.html"> <img src="Imagens/Android.jpg" height="125" width="500"> </a>
+        </div>
+        <!-----Barra de pesquisa----->
+        <form id="pesquisa">
+            <img id="pesquisa" src="Imagens/images.png"><input id="pesquisa" type="search"><input type="button" id="buscar" value="Buscar">
+        </form>
+        <!-----Banner----->
+            <img src="Imagens/laptop.jpg" id="banner" height="90" width="728">
+        <!-------Começo Menu horizontal------>
+        <div id="menu">   
+            <ul id="menu">
+                <li><a id="inicio" href="TechnologyOn_Inicio.html">Início</a></li>
+                <li>
+                    <a id="lançamento">Lançamentos</a>
+                    <!---Submenu 1--->
+                    <ul id="submenu">
+                        <li><a href="TechnologyOn_GalaxyS6.html">Galaxy S6</a></li>
+                        <li><a href="TechnologyOn_Analise-iPhone6.html">Iphone 6</a></li>
+                        <li><a href="TechnologyOn_Lumia640.html">Lumia 640</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a>+Baixados</a>
+                    <!---Submenu 2--->
+                    <ul id="submenu">
+                        <li><a href="TechnologyOn_WhatsApp.html">Whatsapp</a></li>
+                        <li><a href="TechnologyOn_Facebook.html">Facebook</a></li>
+                        <li><a href="TechnologyOn_Instagram.html">Instagram</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <!-------Fim Menu horizontal------>
+        
+        <div id="conteudos">
+            <!----1ª notícia---->
+            <a id="conteudo1" href="TechnologyOn_Nokia.html">
+            <div id="conteudo1"> Nokia está voltando ao mercado de 
+                <br>smartphones, mas não como antes.
+            </div>
+            </a>
+            <!----2ª notícia---->
+            <a id="conteudo2" href="TechnologyOn_GalaxyS6.html">
+            <div id="conteudo2">
+                Análise Galaxy S6
+            </div>
+            </a>
+            <!----3ª notícia---->
+            <a id="conteudo3" href="TechnologyOn_Iphone6.html">
+            <div id="conteudo3">
+                Apple poderia acabar com o botão home para 'embuti-lo' na tela
+            </div>
+            </a>
+            <!----4ª notícia---->
+            <a id="conteudo4" href="TechnologyOn_Chips.html">
+                <div id="conteudo4">
+                    Apple e Samsung juntam forças para mudar setor mobile com cartão e-SIM
+                </div>
+            </a>
+        </div>
+        <div id="rodape">
+            <!-----Rodapé esquerda----->
+            <footer id="rodape1">
+                <a id="fale" href="TechnologyOn_Formulario.html">Fale Conosco</a>				
+            </footer>
+            <!-----Rodapé direita------>
+            <footer id="rodape2">
+                © Copyright 2015 - Technology LTDA, todos os direitos reservados.
+            </footer>
+        </div>
+    </div>
+    <script>
+        function exiba(){
+        var hora = new Date().getHours();
+            if(hora<12 && hora>=5)
+                alert("Bom Dia !\nSeja bem vindo ao TechnologyOn !");
+        else
+            if(hora>=12 && hora<18)
+                alert("Boa Tarde !\nSeja bem vindo ao TechnologyOn !");
+        else
+            alert("Boa Noite !\nSeja bem vindo ao TechnologyOn !");
+        }
+    </script>
+    </body>
+</html>

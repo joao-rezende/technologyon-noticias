@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="icon" type="imagem/jpg" href="Imagens/icone.jpg" />
+        <title>TechnologyOn</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="CSS/style.css">
+        <link rel="stylesheet" href="CSS/style_galaxys6.css">
+    </head>
+
+    <body>
+        <div id="imagem">
+            <a href="TechnologyOn_Inicio.html"> <img src="Imagens/Android.jpg" height="125px" width="500px"></a>
+        </div>
+        <form id="pesquisa">
+            <img id="pesquisa" src="Imagens/images.png"><input id="pesquisa" type="search"><input type="button" id="buscar" value="Buscar">
+        </form>
+            <img src="Imagens/laptop.jpg" id="banner" height="90px" width="728px">
+        <div id="menu">   
+            <ul id="menu">
+                <li><a id="inicio" href="TechnologyOn_Inicio.html">Início</a></li>
+                <li>
+                    <a id="lançamento">Lançamentos</a>
+                    <ul id="submenu">
+                        <li><a href="TechnologyOn_GalaxyS6.html">Galaxy S6</a></li>
+                        <li><a href="TechnologyOn_Analise-iPhone6.html">Iphone 6</a></li>
+                        <li><a href="TechnologyOn_Lumia640.html">Lumia 640</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a>+Baixados</a>
+                    <ul id="submenu">
+                        <li><a href="TechnologyOn_WhatsApp.html">Whatsapp</a></li>
+                        <li><a href="TechnologyOn_Facebook.html">Facebook</a></li>
+                        <li><a href="TechnologyOn_Instagram.html">Instagram</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div id="conteudo">
+            <header>
+                <img src="Imagens/Galaxy-S6-2.png" height="110px" width="560px" align="center">
+            </header>
+            <br>
+            <br>
+            <h1>
+            O mais poderoso Galaxy já lançado acaba de chegar ao Brasil. Dissecamos o aparelho e mostramos absolutamente tudo o que você precisa saber sobre o mais novo top de linha da             Samsung.
+            </h1>
+			
+            <div id="imagem2">
+                <img src="Imagens/Tablet.png">
+            </div>
+        </div>
+            <img id="samsungs6" src="Imagens/Galaxy-S6-1.jpg" height="367.5px" width="187.5px" onmouseover="mudar1()" onmouseout="mudar2()">
+			<br>
+			<p id="conteudo2">
+			O Galaxy S6 representa um novo marco para a Samsung. Pelo menos essa é a expectativa da empresa, que atualmente mantém a liderança no mercado de smartphones, mas viu seu               reinado ameaçado em 2014. O novo top de linha da companhia chega às lojas com visual completamente renovado, trazendo novidades que podem dividir opiniões entre os                     consumidores.
+			<br>
+			<br>
+			O novo Galaxy S6 não tem mais bateria removível, não tem entrada para cartão micro SD e não é mais à prova d’água. O acabamento do aparelho, cuja qualidade foi bastante                 questionada no passado, agora utiliza os melhores materiais possíveis. Além disso, o posicionamento da empresa no mercado também mudou. A ideia agora é se colocar entre as             concorrentes com um modelo premium, que oferece um visual diferenciado além do hardware potente.
+            </p>
+			<iframe width="850" height="425" src="https://www.youtube.com/embed/ls3ohFz6HEY" frameborder="0" allowfullscreen></iframe>
+			<footer id="artigo">
+                Fonte: tecmundo.com.br
+            </footer>
+		<div id="rodape">
+            <footer id="rodape1">
+                <a id="fale" href="TechnologyOn_Formulario.html">Fale Conosco</a>				
+            </footer>
+            <footer id="rodape2">
+                © Copyright 2015 - Technology LTDA, todos os direitos reservados.
+            </footer>
+        </div>
+        <script>
+            
+            function mudar1()
+            {
+                document.getElementById('samsungs6').src = 'Imagens/Galaxy-S6-2.jpg';
+                document.getElementById('samsungs6').style.width = '187.5px';
+                document.getElementById('samsungs6').style.height = '367.5px';
+            }
+            function mudar2()
+            {
+                document.getElementById('samsungs6').src = 'Imagens/Galaxy-S6-1.jpg';
+                document.getElementById('samsungs6').style.width = '187.5px';
+                document.getElementById('samsungs6').style.height = '367.5px';
+            }
+        </script>
+    </body>
+</html>

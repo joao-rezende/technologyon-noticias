@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="icon" type="imagem/jpg" href="Imagens/icone.jpg" />
+        <title>TechnologyOn</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="CSS/style.css">
+        <link rel="stylesheet" href="CSS/style_Analise-iPhone6.css">
+    </head>
+
+    <body>
+        <div id="imagem">
+            <a href="TechnologyOn_Inicio.html"> <img src="Imagens/Android.jpg" height="125px" width="500px"></a>
+        </div>
+        <form id="pesquisa">
+            <img id="pesquisa" src="Imagens/images.png"><input id="pesquisa" type="search"><input type="button" id="buscar" value="Buscar">
+        </form>
+        <img src="Imagens/laptop.jpg" id="banner" height="90px" width="728px">
+        <div id="menu">   
+            <ul id="menu">
+                <li><a id="inicio" href="TechnologyOn_Inicio.html">Início</a></li>
+                <li>
+                    <a id="lançamento">Lançamentos</a>
+                    <ul id="submenu">
+                        <li><a href="TechnologyOn_GalaxyS6.html">Galaxy S6</a></li>
+                        <li><a href="TechnologyOn_Analise-iPhone6.html">Iphone 6</a></li>
+                        <li><a href="TechnologyOn_Lumia640.html">Lumia 640</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a>+Baixados</a>
+                    <ul id="submenu">
+                        <li><a href="TechnologyOn_WhatsApp.html">Whatsapp</a></li>
+                        <li><a href="TechnologyOn_Facebook.html">Facebook</a></li>
+                        <li><a href="TechnologyOn_Instagram.html">Instagram</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div id="conteudo">
+            <header>
+                <img src="Imagens/iPhone_6-1.png" height="110px" width="560px" align="center">
+            </header>
+            <br>
+            <br>
+            <h1>
+             O iPhone 6 chegou ao mercado trazendo aquilo que a Apple sempre ofereceu: design de bom gosto, simplicidade e eficiência. Nós testamos todos os recursos do novo aparelho               que tem tudo para ser o melhor iPhone já feito até hoje.
+            </h1>
+			
+            <div id="imagem2">
+                <img src="Imagens/Tablet.png">
+            </div>
+        </div>
+        <img id="samsungs6" src="Imagens/iPhone-6-3.jpg" height="377.5px" width="198px" onmouseover="mudar1()" onmouseout="mudar2()">
+        <br>
+        <p id="conteudo2">
+			  O iPhone 6 não é um aparelho revolucionário e não oferece nenhuma novidade incrivelmente diferente de tudo o que estamos acostumados a ver por aí. Em vez de tentar                    reinventar a roda, a Apple respondeu aos pedidos e aumentou o tamanho da tela. De resto, a empresa optou por refinar aquilo que sempre consagrou os aparelhos da marca:                  design, simplicidade e eficiência.
+			<br>
+			<br>
+                E é justamente aí que está a sua principal qualidade. O iPhone sempre foi um aparelho excelente, desde o primeiro até o mais recente. E com o iPhone 6 nós continuamos 
+            tendo isso: design, confiabilidade, desempenho e agora uma tela maior.
+        </p>
+        <iframe width="850" height="425" src="https://www.youtube.com/embed/GMuNb6CjZtU" frameborder="0" allowfullscreen></iframe>
+        <footer id="artigo">
+            Fonte: tecmundo.com.br
+        </footer>
+		<div id="rodape">
+            <footer id="rodape1">
+                <a id="fale" href="TechnologyOn_Formulario.html">Fale Conosco</a>				
+            </footer>
+            <footer id="rodape2">
+                © Copyright 2015 - Technology LTDA, todos os direitos reservados.
+            </footer>
+        </div>
+        <script>
+            
+            function mudar1()
+            {
+                document.getElementById('samsungs6').src = 'Imagens/iPhone-6-2.jpg';
+                document.getElementById('samsungs6').style.width = '198px';
+                document.getElementById('samsungs6').style.height = '377.5px';
+            }
+            function mudar2()
+            {
+                document.getElementById('samsungs6').src = 'Imagens/iPhone-6-3.jpg';
+                document.getElementById('samsungs6').style.width = '198px';
+                document.getElementById('samsungs6').style.height = '377.5px';
+            }
+        </script>
+    </body>
+</html>

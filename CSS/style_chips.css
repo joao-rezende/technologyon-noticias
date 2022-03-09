@@ -1,0 +1,59 @@
+div#conteudo {
+                position: absolute;
+                top: 53%;
+                left: 14.5%;
+                width: 850px;
+}
+header {
+        text-align: center;
+        font-family: Tahoma;
+        font-size: 38px;
+        font-weight: 100;
+}
+h1 {
+    padding-left: 170px;
+    text-align: left;
+    font-size: 140%;
+    font-weight: bold;
+}
+img {  
+    padding-right: 10px;
+    }
+p {
+    font-size: 113%;
+}
+p.pa {
+        padding-left: 170px;
+}
+div#imagem2 {
+    position: absolute;
+    top: 9%;
+    left: 105%;
+}
+footer#artigo {
+        padding-left: 170px;
+        font-family: courier;
+}
+div#rodape {
+                border-top: groove gray;
+                width: 99%;
+                position: absolute;
+                top: 210%;
+                color: gray;
+}
+a#fale {
+		color:gray;
+		text-decoration:none;
+		}
+a#fale:hover {
+		color: black;
+}
+footer#rodape1 {
+                position: absolute;
+                font-family: sans-serif;
+}
+footer#rodape2 {
+				text-align: right;
+                font-size: 90%;
+                font-family: sans-serif;
+}

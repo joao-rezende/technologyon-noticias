@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="icon" type="imagem/jpg" href="Imagens/icone.jpg" />
+        <title>TechnologyOn</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="CSS/style.css">
+		<link rel="stylesheet" href="CSS/style_Formulario.css"
+    </head>
+
+    <body>
+    <div id=geral>
+        <div id="imagem">
+           <a href="TechnologyOn_Inicio.html"> <img src="Imagens/Android.jpg" height="125px" width="500px"> </a>
+        </div>
+        <form id="pesquisa">
+            <img id="pesquisa" src="Imagens/images.png"><input id="pesquisa" type="search"><input type="button" id="buscar" value="Buscar">
+        </form>
+            <img src="Imagens/laptop.jpg" id="banner" height="90px" width="728px">
+        <div id="menu">   
+            <ul id="menu">
+                <li><a id="inicio" href="TechnologyOn_Inicio.html">Início</a></li>
+                <li>
+                    <a id="lançamento">Lançamentos</a>
+                    <ul id="submenu">
+                        <li><a href="TechnologyOn_GalaxyS6.html">Galaxy S6</a></li>
+                        <li><a href="TechnologyOn_Analise-iPhone6.html">Iphone 6</a></i>
+                        <li><a href="TechnologyOn_Lumia640.html">Lumia 640</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a>+Baixados</a>
+                    <ul id="submenu">
+                        <li><a href="TechnologyOn_WhatsApp.html">Whatsapp</a></li>
+                        <li><a href="TechnologyOn_Facebook.html">Facebook</a></li>
+                        <li><a href="TechnologyOn_Instagram.html">Instagram</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+		<form id="formulario">
+			Nome: <input id="nome" type="text" placeholder="Nome" required name="nome">
+			Sobrenome: <input id="sobrenome" type="text" placeholder="Sobrenome" required name="sobrenome">
+			<br>
+			<br>
+			Data de Nascimento: <input type="data" placeholder="dd/mm/aaaa" name="data">
+			E-mail: <input type="email" id="email" value="" placeholder="nome@email.com" name="email" required>
+			Sexo: <input type="radio" required name="sexo" checked>Masculino <input type="radio" name="sexo">Feminino
+			<br>
+			<br>
+			Estado: <input type="text" id="estado" required placeholder="Ex.: SP" name="estado">
+			Cidade: <input type="text" id="cidade" required placeholder="Ex.: São Paulo" name="cidade">
+			<br>
+			<br>
+			Mensagem: 
+			<br>
+			<textarea id="mensagem" placeholder="Deixe sua mensagem..." rows="15" cols="100" name="mensagem" required></textarea>
+			<div id="botao">
+				<input type="submit" onclick="formulario()" value="Enviar">
+			</div>
+		</form>
+        <div id="rodape">
+            <footer id="rodape1">
+                <a id="fale" href="TechnologyOn_Formulario.html">Fale Conosco</a>				
+            </footer>
+            <footer id="rodape2">
+                © Copyright 2015 - Technology LTDA, todos os direitos reservados.
+            </footer>
+        </div>
+    </div>
+    <script>
+            var hora = new Date().getHours();
+            var minute = new Date().getMinutes();
+            var segundos = new Date().getSeconds();
+        function formulario(){
+            var n = document.getElementById('nome').value;
+            var s = document.getElementById('sobrenome').value;
+            var em = document.getElementById('email').value;
+            var es = document.getElementById('estado').value;
+            var c = document.getElementById('cidade').value;
+            var m = document.getElementById('mensagem').value;
+            var a = em.indexOf("@");
+            var usuario = em.substring(0,em.indexOf("@"));
+            var dominio = em.substring(em.indexOf("@")+1,em.length);
+            
+            if (
+                (usuario.length >=1) && 
+                (dominio.length >=3) && 
+                (usuario.search("@")==-1) && 
+                (dominio.search("@")==-1) && 
+                (usuario.search(" ")==-1) && 
+                (dominio.search(" ")==-1) && 
+                (dominio.search(".")!=-1) && 
+                n != "" && 
+                s != "" && 
+                es != "" && 
+                c != "" && 
+                m != "" && 
+                a != -1
+               )
+            alert("Mensagem Enviada as: " + hora + ":" + minute + ":" + segundos);
+            
+        }
+    </script>
+    </body>
+</html>

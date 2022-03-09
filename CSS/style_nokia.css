@@ -1,0 +1,62 @@
+div#conteudo {
+                position: absolute;
+                top: 53%;
+                left: 14.5%;
+                width: 59.2%;
+}
+header {
+        text-align: center;
+        font-family: Tahoma;
+        font-size: 230%;
+        font-weight: 100;
+}
+h1 {
+    padding-left: 20%;
+    text-align: left;
+    font-size: 140%;
+    font-weight: bold;
+}
+img#nokia {  
+    padding-right: 1.5%;
+    }
+p {
+    font-size: 113%;
+}
+p.pa {
+        padding-left: 20%;
+}
+div#imagem2 {
+    position: absolute;
+    top: 9%;
+    left: 105%;
+}
+footer#artigo {
+        padding-left: 14%;
+        font-family: courier;
+}
+div#rodape {
+                border-top: groove gray;
+                width: 99%;
+                position: absolute;
+                top: 225%;
+                color: gray;
+}
+a#fale {
+		color:gray;
+		text-decoration:none;
+		}
+a#fale:hover {
+		color: black;
+}
+footer#rodape1 {
+                position: absolute;
+                font-size: 90%;
+                font-family: sans-serif;
+}
+footer#rodape2 {
+				text-align: right;
+                position: absolute;
+                left: 67.5%;
+                font-size: 90%;
+                font-family: sans-serif;
+}

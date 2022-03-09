@@ -1,0 +1,107 @@
+div#geral {
+            border: solid transparent;
+}
+div#conteudo1 {
+                border: solid transparent;
+                width: 39%;
+                height: 12%;
+                position: absolute;
+                top: 50%;
+                left: 4.25%;
+                background-image: url(Imagens/Nokia-Logo.jpg);
+                background-size: 100% 100%;
+                color: white;
+                font-size: 170%;
+                padding-top: 20%;;
+                padding-left: 3.25%;
+                padding-bottom: 1.4%;
+}
+a#conteudo1:hover {
+                font-size: 105%;
+                    
+}
+div#conteudo2 {
+                border: solid white;
+                background-image: url(Imagens/Galaxy-S6.jpg);
+                background-size: 100% 100%;
+                width: 28%;
+                height: 5.8%;
+                position: absolute;
+                top: 49.6%;
+                left: 47%;
+                padding-top: 9%;;
+                padding-bottom: 1.4%;
+                padding-left: 1.85%;
+                font-size: 160%;
+                color: white;
+}
+
+a#conteudo2:hover {
+                    font-size: 108%;
+}
+div#conteudo3 {
+                position: absolute;
+                top: 79%;
+                left: 47.2%;
+                width: 28%;
+                height: 5.8%;
+                background-image: url(Imagens/Iphone-1.jpg);
+                background-size: 100% 100%;
+                padding-top: 8.205%;
+                padding-bottom: 3.1%;
+                padding-left: 1.4%;
+                padding-right: 0.5017%;
+                font-size: 140%;
+                color: white;
+}
+a#conteudo3:hover {
+                    font-size: 105%;
+}
+div#conteudo4 {
+                background-image: url(Imagens/Chips.jpg);
+                background-size: 100% 100%;
+                background-repeat: no-repeat;
+                position: absolute;
+                top: 49.55%;
+                left: 77.2%;
+                height: 8%;
+                width: 18%;
+                padding-top: 15.3%; 
+                padding-bottom: 8.4%;
+                padding-left: 15px;
+                padding-right: 7.5px;
+                border: transparent solid;
+                color: white;
+                font-size: 140%;
+}
+a#conteudo4:hover {
+                    font-size: 105%;
+}
+div#rodape {
+                border-top: groove gray;
+                width: 99%;
+                position: absolute;
+                top: 128%;
+                color: gray;
+}
+a#fale {
+		color:gray;
+		text-decoration:none;
+		}
+a#fale:hover {
+		color: black;
+}
+footer#rodape1 {
+                position: absolute;
+                top: 118%;
+                font-size: 90%;
+                font-family: sans-serif;
+}
+footer#rodape2 {
+				text-align: right;
+                position: absolute;
+                top: 119%;
+                left: 72%;
+                font-size: 90%;
+                font-family: sans-serif;
+}
